@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erica-y-chen/webdb-iii-challenge.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/erica-y-chen/webdb-iii-challenge/issues"
+  },
+  "homepage": "https://github.com/erica-y-chen/webdb-iii-challenge#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "knex": "^0.16.5",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "keywords": []
+}
